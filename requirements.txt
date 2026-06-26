@@ -1,0 +1,4 @@
+# Auriga Opportunities — minimal dependencies.
+# Stdlib covers HTTP (urllib), SQLite, scheduling, Graph API multipart upload.
+# Pillow is only for the 1080x1080 image cards.
+Pillow>=10.0

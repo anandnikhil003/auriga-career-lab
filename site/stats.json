@@ -1,0 +1,26 @@
+{
+  "total": 40,
+  "catalog_size": 40,
+  "remaining": 40,
+  "scheduled_today": 0,
+  "db_size_kb": 28.0,
+  "countries": 16,
+  "organizations": 37,
+  "funded": 40,
+  "by_category": {
+    "stem": 8,
+    "ug_research": 8,
+    "ai_cs": 8,
+    "scholarships": 8,
+    "conferences": 8
+  },
+  "category_labels": {
+    "stem": "STEM",
+    "ug_research": "UG Research",
+    "ai_cs": "AI/CS",
+    "scholarships": "Scholarships",
+    "conferences": "Conferences"
+  },
+  "generated_at": "2026-06-27 00:48",
+  "sample_card": "assets/images/cards/stem/0_cover.png"
+}

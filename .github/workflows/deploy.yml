@@ -1,0 +1,68 @@
+# Auriga Career Lab — Opportunity Discovery Engine
+# Automatically builds the static "opportunity marketplace" website and publishes
+# it to GitHub Pages (100% free). Additive only — runs the existing pipeline.
+name: Deploy Auriga site to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]      # every push to main rebuilds + redeploys
+  workflow_dispatch:        # ...and a manual "Run workflow" button
+
+# Permissions required by the official GitHub Pages deployment actions.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one Pages deployment at a time; let the newest run finish last so Pages
+# always ends up serving the most recently exported website.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      # No Meta credentials needed to build the public site — stay in DRY_RUN.
+      DRY_RUN: "true"
+      HTTP_TIMEOUT: "10"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate cards + captions (offline, no Meta required)
+        run: python main.py --preview
+
+      - name: Export the static website
+        run: python main.py --export-site
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the exported site as a Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

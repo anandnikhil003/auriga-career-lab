@@ -1,0 +1,30 @@
+AURIGA CAREER LAB — WEEKLY REPORT
+Generated 2026-06-24 14:25  ·  window 2026-06-17 → 2026-06-24
+============================================================
+
+Posts published (7d):        25
+
+Per-category counts:
+  STEM           5
+  UG Research    5
+  AI/CS          5
+  Scholarships   5
+  Conferences    5
+
+Platform breakdown:
+  pending        25
+
+Remaining opportunities:     15 / 40
+Published to Facebook (all):  0
+Published to Instagram (all): 0
+
+Top performing posts (by engagement):
+  (no engagement data yet — run `analytics.py --refresh` once live)
+
+Errors encountered (7d logs):
+  facebook.log:  4
+  instagram.log: 0
+  token.log:     3
+
+Missed schedules today:
+  none — all categories posted

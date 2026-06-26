@@ -1,0 +1,31 @@
+[2026-06-26 18:30:26] === run start ===  mode=DRY_RUN
+[2026-06-26 18:30:26] category: stem (STEM)
+[2026-06-26 18:30:26]   [stem] 5 picks | slides=6 | caption=/tmp/pkg36/auriga-opportunities/posts/facebook/stem.txt
+[2026-06-26 18:30:26] category: ug_research (UG Research)
+[2026-06-26 18:30:27]   [ug_research] 5 picks | slides=6 | caption=/tmp/pkg36/auriga-opportunities/posts/facebook/ug_research.txt
+[2026-06-26 18:30:27] category: ai_cs (AI/CS)
+[2026-06-26 18:30:27]   [ai_cs] 5 picks | slides=6 | caption=/tmp/pkg36/auriga-opportunities/posts/facebook/ai_cs.txt
+[2026-06-26 18:30:27] category: scholarships (Scholarships)
+[2026-06-26 18:30:27]   [scholarships] 5 picks | slides=6 | caption=/tmp/pkg36/auriga-opportunities/posts/facebook/scholarships.txt
+[2026-06-26 18:30:27] category: conferences (Conferences)
+[2026-06-26 18:30:27]   [conferences] 5 picks | slides=6 | caption=/tmp/pkg36/auriga-opportunities/posts/facebook/conferences.txt
+[2026-06-26 18:30:27] done: 5/5 categories processed | {'total': 40, 'posted': 0, 'remaining': 40, 'facebook': 0, 'instagram': 0}
+[2026-06-26 18:30:27] === run ok ===
+[2026-06-27 00:45:41] === run start ===  mode=DRY_RUN
+[2026-06-27 00:45:41] category: stem (STEM)
+[2026-06-27 00:45:49]   [stem] dropped: Caltech SURF -> official url is dead (4xx/5xx)
+[2026-06-27 00:45:52]   [stem] 5 picks | slides=6 | caption=C:\Users\imnik\OneDrive\Desktop\Auriga-test_0.1\auriga-opportunities-v3.6\auriga-opportunities\posts\facebook\stem.txt
+[2026-06-27 00:45:52] category: ug_research (UG Research)
+[2026-06-27 00:45:55]   [ug_research] dropped: Summer@EPFL Research Internship -> official url is dead (4xx/5xx)
+[2026-06-27 00:45:57]   [ug_research] dropped: MIT Summer Research Program (MSRP) -> official url is dead (4xx/5xx)
+[2026-06-27 00:46:06]   [ug_research] dropped: Caltech WAVE Fellows -> official url is dead (4xx/5xx)
+[2026-06-27 00:46:07]   [ug_research] 5 picks | slides=6 | caption=C:\Users\imnik\OneDrive\Desktop\Auriga-test_0.1\auriga-opportunities-v3.6\auriga-opportunities\posts\facebook\ug_research.txt
+[2026-06-27 00:46:07] category: ai_cs (AI/CS)
+[2026-06-27 00:46:12]   [ai_cs] dropped: CERN openlab Summer Student Programm -> official url is dead (4xx/5xx)
+[2026-06-27 00:46:16]   [ai_cs] 5 picks | slides=6 | caption=C:\Users\imnik\OneDrive\Desktop\Auriga-test_0.1\auriga-opportunities-v3.6\auriga-opportunities\posts\facebook\ai_cs.txt
+[2026-06-27 00:46:16] category: scholarships (Scholarships)
+[2026-06-27 00:46:32]   [scholarships] 5 picks | slides=6 | caption=C:\Users\imnik\OneDrive\Desktop\Auriga-test_0.1\auriga-opportunities-v3.6\auriga-opportunities\posts\facebook\scholarships.txt
+[2026-06-27 00:46:32] category: conferences (Conferences)
+[2026-06-27 00:46:49]   [conferences] 5 picks | slides=6 | caption=C:\Users\imnik\OneDrive\Desktop\Auriga-test_0.1\auriga-opportunities-v3.6\auriga-opportunities\posts\facebook\conferences.txt
+[2026-06-27 00:46:49] done: 5/5 categories processed | {'total': 40, 'posted': 0, 'remaining': 40, 'facebook': 0, 'instagram': 0}
+[2026-06-27 00:46:49] === run ok ===
